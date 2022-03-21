@@ -1,0 +1,83 @@
+/* Header */
+.header{
+    margin: 0;
+    padding: 0;
+}
+.header .img.poverty{
+    position: relative;
+}
+.header img{
+    height: 100vh;
+    width: 100%;
+}
+.header .img.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.7;
+}
+.header .img-content{
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+    color: #fff !important;
+    text-align: center !important;
+    justify-content: center !important;
+}
+.header .img-content h2{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    color: deepskyblue;
+    margin-bottom: 20px !important;
+}
+.header .img-content span{
+    font-weight: 500;
+    font-size: 40px;
+    font-style: normal;
+    letter-spacing: 0.2px;
+}
+/* Event Section */
+.event{
+    margin: 200px auto;
+}
+.event-content{
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, o, 0.3), inset 10px 10px  10px -10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    background: #fff !important;
+}
+.event-content h4{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(190, 54, 49);
+    margin-bottom: 5px;
+}
+.event-content span{
+    font-style: normal;
+    font-size: 15px;
+}
+.event-content a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px !important;
+}
+.event img{
+    transition: 0.7s;
+}
+.event img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.event .col-sm-5{
+    margin-bottom: 50px !important;
+}
+.imgEvent{
+    height: 350px;
+    width: 400px;
+}
